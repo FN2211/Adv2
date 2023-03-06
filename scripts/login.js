@@ -36,6 +36,7 @@ function OnSubmitClick()
     else
     {
         ErrorText.style.opacity = 1;
+        Password = '';
         setTimeout(() => {
             ErrorText.style.opacity = 0;
         }, 4000);
