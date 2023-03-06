@@ -17,13 +17,13 @@ function OnSubmitClick()
     {
         LoginID = 1;
         console.log(LoginID);
-        //window.location.href = "pages/index.html";
+        window.location.href = "pages/index.html";
     } 
     else if (Username == 'VIP Ziege' && Password == 'Adventure2022')
     {
         LoginID = 2;
         console.log(LoginID);
-        //window.location.href = "pages/index.html";
+        window.location.href = "pages/index.html";
     }
     else
     {
