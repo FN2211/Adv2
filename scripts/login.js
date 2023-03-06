@@ -20,13 +20,13 @@ function OnSubmitClick()
         window.location.href = "pages/index.html";
         localStorage.setItem("LoginID", LoginID);
     } 
-    else if (Username == 'VIP Ziege' && Password == 'Adventure2022')
+    else if (Username === 'VIP Ziege' && Password === 'Adventure2022')
     {
         LoginID = 2;
         console.log(LoginID);
         window.location.href = "pages/index.html";
         localStorage.setItem("LoginID", LoginID);
-    } else if (Username == 'Homstaa' && Password == 'Adventure2042')
+    } else if (Username === 'Homstaa' && Password === 'Adventure2042')
     {
         LoginID = 3;
         console.log(LoginID);
