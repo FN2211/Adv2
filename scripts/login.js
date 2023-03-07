@@ -20,13 +20,13 @@ function OnSubmitClick()
         window.location.href = "pages/index.html";
         localStorage.setItem("LoginID", LoginID);
     } 
-    else if (Username === 'VIP Ziege' && Password === 'Adventure2022')
+    else if (Username == 'VIP Ziege' && Password == 'Adventure2022')
     {
         LoginID = 2;
         console.log(LoginID);
         window.location.href = "pages/index.html";
         localStorage.setItem("LoginID", LoginID);
-    } else if (Username === 'Homstaa' && Password === 'Adventure2042')
+    } else if (Username == 'Homstaa' && Password == 'Adventure2042')
     {
         LoginID = 3;
         console.log(LoginID);
@@ -36,7 +36,6 @@ function OnSubmitClick()
     else
     {
         ErrorText.style.opacity = 1;
-        Password = '';
         setTimeout(() => {
             ErrorText.style.opacity = 0;
         }, 4000);
@@ -59,4 +58,9 @@ function OnLoad(){
         AdventureCard.style.cursor = 'not-allowed';
         Btn.style.pointerEvents = 'none';
     }
+}
+
+function AdvDownload()
+{
+    window.open('https://drive.google.com/u/1/uc?id=1e9xGWu46Rd_mRuZ3bS1Ldk7WBzssvV3Z&export=download&confirm=t&confirm=t&uuid=ae3e7fb1-c756-4dd5-b00b-8719b5a512c2&at=ALgDtsyvUZwRDKb1XN8rOmCvYDkm:1678186377262', '_blank').focus();
 }
