@@ -26,7 +26,7 @@ function OnSubmitClick()
         console.log(LoginID);
         window.location.href = "pages/index.html";
         localStorage.setItem("LoginID", LoginID);
-    } else if (Username == 'Homstaa' && Password == 'Adventure2042')
+    } else if (Username == 'Homstaa' && Password == 'Adventure2047')
     {
         LoginID = 3;
         console.log(LoginID);
