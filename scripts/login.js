@@ -62,5 +62,5 @@ function OnLoad(){
 
 function AdvDownload()
 {
-    window.open('https://drive.google.com/u/1/uc?id=1e9xGWu46Rd_mRuZ3bS1Ldk7WBzssvV3Z&export=download&confirm=t&confirm=t&uuid=ae3e7fb1-c756-4dd5-b00b-8719b5a512c2&at=ALgDtsyvUZwRDKb1XN8rOmCvYDkm:1678186377262', '_blank').focus();
+    window.open('https://drive.google.com/u/1/uc?id=1e9xGWu46Rd_mRuZ3bS1Ldk7WBzssvV3Z&export=download&confirm=t&confirm=t&uuid=5bd349ba-801e-43e8-a86b-65a9be086646&at=ALgDtsyCKbR0c0qHkexPVIsi18qX:1678291694498', '_blank').focus();
 }
